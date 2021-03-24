@@ -19,9 +19,7 @@ struct ContentView: View {
                 .padding()
             HStack {
                 Text("0")
-                Slider(value: $currentValue, in: 0...100)
-                    .background(Color.blue)
-                    .opacity(1.0 - Double(computeScore())/100.0)
+                ColorUISlider(color: .blue, value: $currentValue, alpha: .constant(1.0 - Double(computeScore())/100.0))
                 Text("100")
             }
             Button("Hit Me!") {
