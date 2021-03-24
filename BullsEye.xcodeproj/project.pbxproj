@@ -23,6 +23,7 @@
 		046ABD0B260B536E004C6E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046ABD0A260B536E004C6E28 /* Assets.xcassets */; };
 		046ABD0E260B536E004C6E28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046ABD0D260B536E004C6E28 /* Preview Assets.xcassets */; };
 		046ABD13260B536E004C6E28 /* Bull Eye Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 046ABCF2260B536A004C6E28 /* Bull Eye Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		046ABD1F260B54B8004C6E28 /* BullsEyeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ABCB5260B50D4004C6E28 /* BullsEyeGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -327,6 +328,7 @@
 			files = (
 				046ABD05260B536D004C6E28 /* NotificationController.swift in Sources */,
 				046ABD03260B536D004C6E28 /* ContentView.swift in Sources */,
+				046ABD1F260B54B8004C6E28 /* BullsEyeGame.swift in Sources */,
 				046ABD09260B536D004C6E28 /* ComplicationController.swift in Sources */,
 				046ABD01260B536D004C6E28 /* BullsEyeApp.swift in Sources */,
 				046ABD07260B536D004C6E28 /* NotificationView.swift in Sources */,
