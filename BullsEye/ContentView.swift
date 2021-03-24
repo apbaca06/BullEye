@@ -9,31 +9,38 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var targetValue: Int = Int.random(in: 1...100)
+    @ObservedObject private var game = BullsEyeGame()
     @State var currentValue: Double = 50
     @State var showAlert = false
     
+    private var alpha: Double {
+      abs(Double(game.targetValue) - currentValue) / 100.0
+    }
+    
     var body: some View {
         VStack {
-            Text("Put the Bull's Eye as close as you can to:\(targetValue)")
+            Text("Put the Bull's Eye as close as you can to:\(game.targetValue)")
                 .padding()
             HStack {
                 Text("0")
-                ColorUISlider(color: .blue, value: $currentValue, alpha: .constant(1.0 - Double(computeScore())/100.0))
+                ColorUISlider(color: .blue, value: $currentValue, alpha: .constant(alpha))
                 Text("100")
             }
             Button("Hit Me!") {
                 showAlert = true
+                game.checkGuess(Int(currentValue))
             }.alert(isPresented: $showAlert, content: {
-                Alert(title: Text("Your Score"), message: Text(String(computeScore())), dismissButton: nil)
+                Alert(title: Text("Your Score"), message: Text(String(game.scoreRound)), dismissButton: .default(Text("OK"), action: {
+                    game.startNewRound()
+                    currentValue = 50.0
+                }))
             })
+            
+            HStack {
+              Text("Total Score: \(game.scoreTotal)")
+              Text("Round: \(game.round)")
+            }
         }
-    }
-    
-    func computeScore() -> Int {
-        let difference = abs(targetValue - lroundf(Float(currentValue)))
-        let points = 100 - difference
-        return points
     }
 }
 
