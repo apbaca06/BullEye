@@ -11,6 +11,7 @@
 		0412F2BB2609EDFF0031F17A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412F2BA2609EDFF0031F17A /* ContentView.swift */; };
 		0412F2BD2609EE020031F17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0412F2BC2609EE020031F17A /* Assets.xcassets */; };
 		0412F2C02609EE020031F17A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0412F2BF2609EE020031F17A /* Preview Assets.xcassets */; };
+		0412F32D260B45610031F17A /* ColorUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412F32C260B45610031F17A /* ColorUISlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0412F2BC2609EE020031F17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0412F2BF2609EE020031F17A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0412F2C12609EE020031F17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0412F32C260B45610031F17A /* ColorUISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUISlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				0412F2B82609EDFF0031F17A /* BullsEyeApp.swift */,
 				0412F2BA2609EDFF0031F17A /* ContentView.swift */,
+				0412F32C260B45610031F17A /* ColorUISlider.swift */,
 				0412F2BC2609EE020031F17A /* Assets.xcassets */,
 				0412F2C12609EE020031F17A /* Info.plist */,
 				0412F2BE2609EE020031F17A /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0412F32D260B45610031F17A /* ColorUISlider.swift in Sources */,
 				0412F2BB2609EDFF0031F17A /* ContentView.swift in Sources */,
 				0412F2B92609EDFF0031F17A /* BullsEyeApp.swift in Sources */,
 			);
