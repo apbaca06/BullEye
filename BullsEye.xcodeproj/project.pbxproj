@@ -13,7 +13,59 @@
 		0412F2C02609EE020031F17A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0412F2BF2609EE020031F17A /* Preview Assets.xcassets */; };
 		0412F32D260B45610031F17A /* ColorUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412F32C260B45610031F17A /* ColorUISlider.swift */; };
 		046ABCB6260B50D4004C6E28 /* BullsEyeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ABCB5260B50D4004C6E28 /* BullsEyeGame.swift */; };
+		046ABCF5260B536D004C6E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046ABCF4260B536D004C6E28 /* Assets.xcassets */; };
+		046ABCFC260B536D004C6E28 /* Bull Eye Watch App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 046ABCFB260B536D004C6E28 /* Bull Eye Watch App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		046ABD01260B536D004C6E28 /* BullsEyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ABD00260B536D004C6E28 /* BullsEyeApp.swift */; };
+		046ABD03260B536D004C6E28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ABD02260B536D004C6E28 /* ContentView.swift */; };
+		046ABD05260B536D004C6E28 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ABD04260B536D004C6E28 /* NotificationController.swift */; };
+		046ABD07260B536D004C6E28 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ABD06260B536D004C6E28 /* NotificationView.swift */; };
+		046ABD09260B536D004C6E28 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ABD08260B536D004C6E28 /* ComplicationController.swift */; };
+		046ABD0B260B536E004C6E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046ABD0A260B536E004C6E28 /* Assets.xcassets */; };
+		046ABD0E260B536E004C6E28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046ABD0D260B536E004C6E28 /* Preview Assets.xcassets */; };
+		046ABD13260B536E004C6E28 /* Bull Eye Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 046ABCF2260B536A004C6E28 /* Bull Eye Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046ABCFD260B536D004C6E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0412F2AD2609EDFF0031F17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046ABCFA260B536D004C6E28;
+			remoteInfo = "Bull Eye Watch App Extension";
+		};
+		046ABD11260B536E004C6E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0412F2AD2609EDFF0031F17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046ABCF1260B536A004C6E28;
+			remoteInfo = "Bull Eye Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		046ABD14260B536E004C6E28 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				046ABD13260B536E004C6E28 /* Bull Eye Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046ABD17260B536E004C6E28 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				046ABCFC260B536D004C6E28 /* Bull Eye Watch App Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0412F2B52609EDFF0031F17A /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +76,30 @@
 		0412F2C12609EE020031F17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0412F32C260B45610031F17A /* ColorUISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUISlider.swift; sourceTree = "<group>"; };
 		046ABCB5260B50D4004C6E28 /* BullsEyeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeGame.swift; sourceTree = "<group>"; };
+		046ABCF2260B536A004C6E28 /* Bull Eye Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bull Eye Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046ABCF4260B536D004C6E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046ABCF6260B536D004C6E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046ABCFB260B536D004C6E28 /* Bull Eye Watch App Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bull Eye Watch App Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046ABD00260B536D004C6E28 /* BullsEyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeApp.swift; sourceTree = "<group>"; };
+		046ABD02260B536D004C6E28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		046ABD04260B536D004C6E28 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		046ABD06260B536D004C6E28 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		046ABD08260B536D004C6E28 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		046ABD0A260B536E004C6E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046ABD0D260B536E004C6E28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		046ABD0F260B536E004C6E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046ABD10260B536E004C6E28 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0412F2B22609EDFF0031F17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046ABCF8260B536D004C6E28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				0412F2B72609EDFF0031F17A /* BullsEye */,
+				046ABCF3260B536A004C6E28 /* Bull Eye Watch App */,
+				046ABCFF260B536D004C6E28 /* Bull Eye Watch App Extension */,
 				0412F2B62609EDFF0031F17A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				0412F2B52609EDFF0031F17A /* BullsEye.app */,
+				046ABCF2260B536A004C6E28 /* Bull Eye Watch App.app */,
+				046ABCFB260B536D004C6E28 /* Bull Eye Watch App Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +151,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		046ABCF3260B536A004C6E28 /* Bull Eye Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				046ABCF4260B536D004C6E28 /* Assets.xcassets */,
+				046ABCF6260B536D004C6E28 /* Info.plist */,
+			);
+			path = "Bull Eye Watch App";
+			sourceTree = "<group>";
+		};
+		046ABCFF260B536D004C6E28 /* Bull Eye Watch App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				046ABD00260B536D004C6E28 /* BullsEyeApp.swift */,
+				046ABD02260B536D004C6E28 /* ContentView.swift */,
+				046ABD04260B536D004C6E28 /* NotificationController.swift */,
+				046ABD06260B536D004C6E28 /* NotificationView.swift */,
+				046ABD08260B536D004C6E28 /* ComplicationController.swift */,
+				046ABD0A260B536E004C6E28 /* Assets.xcassets */,
+				046ABD0F260B536E004C6E28 /* Info.plist */,
+				046ABD10260B536E004C6E28 /* PushNotificationPayload.apns */,
+				046ABD0C260B536E004C6E28 /* Preview Content */,
+			);
+			path = "Bull Eye Watch App Extension";
+			sourceTree = "<group>";
+		};
+		046ABD0C260B536E004C6E28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				046ABD0D260B536E004C6E28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,15 +194,51 @@
 				0412F2B12609EDFF0031F17A /* Sources */,
 				0412F2B22609EDFF0031F17A /* Frameworks */,
 				0412F2B32609EDFF0031F17A /* Resources */,
+				046ABD14260B536E004C6E28 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				046ABD12260B536E004C6E28 /* PBXTargetDependency */,
 			);
 			name = BullsEye;
 			productName = BullsEye;
 			productReference = 0412F2B52609EDFF0031F17A /* BullsEye.app */;
 			productType = "com.apple.product-type.application";
+		};
+		046ABCF1260B536A004C6E28 /* Bull Eye Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046ABD1B260B536E004C6E28 /* Build configuration list for PBXNativeTarget "Bull Eye Watch App" */;
+			buildPhases = (
+				046ABCF0260B536A004C6E28 /* Resources */,
+				046ABD17260B536E004C6E28 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046ABCFE260B536D004C6E28 /* PBXTargetDependency */,
+			);
+			name = "Bull Eye Watch App";
+			productName = "Bull Eye Watch App";
+			productReference = 046ABCF2260B536A004C6E28 /* Bull Eye Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		046ABCFA260B536D004C6E28 /* Bull Eye Watch App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046ABD1A260B536E004C6E28 /* Build configuration list for PBXNativeTarget "Bull Eye Watch App Extension" */;
+			buildPhases = (
+				046ABCF7260B536D004C6E28 /* Sources */,
+				046ABCF8260B536D004C6E28 /* Frameworks */,
+				046ABCF9260B536D004C6E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bull Eye Watch App Extension";
+			productName = "Bull Eye Watch App Extension";
+			productReference = 046ABCFB260B536D004C6E28 /* Bull Eye Watch App Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -105,6 +250,12 @@
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					0412F2B42609EDFF0031F17A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					046ABCF1260B536A004C6E28 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					046ABCFA260B536D004C6E28 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -123,6 +274,8 @@
 			projectRoot = "";
 			targets = (
 				0412F2B42609EDFF0031F17A /* BullsEye */,
+				046ABCF1260B536A004C6E28 /* Bull Eye Watch App */,
+				046ABCFA260B536D004C6E28 /* Bull Eye Watch App Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +287,23 @@
 			files = (
 				0412F2C02609EE020031F17A /* Preview Assets.xcassets in Resources */,
 				0412F2BD2609EE020031F17A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046ABCF0260B536A004C6E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046ABCF5260B536D004C6E28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046ABCF9260B536D004C6E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046ABD0E260B536E004C6E28 /* Preview Assets.xcassets in Resources */,
+				046ABD0B260B536E004C6E28 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +321,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		046ABCF7260B536D004C6E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046ABD05260B536D004C6E28 /* NotificationController.swift in Sources */,
+				046ABD03260B536D004C6E28 /* ContentView.swift in Sources */,
+				046ABD09260B536D004C6E28 /* ComplicationController.swift in Sources */,
+				046ABD01260B536D004C6E28 /* BullsEyeApp.swift in Sources */,
+				046ABD07260B536D004C6E28 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046ABCFE260B536D004C6E28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046ABCFA260B536D004C6E28 /* Bull Eye Watch App Extension */;
+			targetProxy = 046ABCFD260B536D004C6E28 /* PBXContainerItemProxy */;
+		};
+		046ABD12260B536E004C6E28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046ABCF1260B536A004C6E28 /* Bull Eye Watch App */;
+			targetProxy = 046ABD11260B536E004C6E28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0412F2C22609EE020031F17A /* Debug */ = {
@@ -314,6 +509,94 @@
 			};
 			name = Release;
 		};
+		046ABD15260B536E004C6E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7QSQ3CRX8;
+				IBSC_MODULE = Bull_Eye_Watch_App_Extension;
+				INFOPLIST_FILE = "Bull Eye Watch App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cchen.BullsEye.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		046ABD16260B536E004C6E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7QSQ3CRX8;
+				IBSC_MODULE = Bull_Eye_Watch_App_Extension;
+				INFOPLIST_FILE = "Bull Eye Watch App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cchen.BullsEye.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		046ABD18260B536E004C6E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bull Eye Watch App Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = T7QSQ3CRX8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Bull Eye Watch App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cchen.BullsEye.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		046ABD19260B536E004C6E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bull Eye Watch App Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = T7QSQ3CRX8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Bull Eye Watch App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cchen.BullsEye.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +614,24 @@
 			buildConfigurations = (
 				0412F2C52609EE020031F17A /* Debug */,
 				0412F2C62609EE020031F17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046ABD1A260B536E004C6E28 /* Build configuration list for PBXNativeTarget "Bull Eye Watch App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046ABD18260B536E004C6E28 /* Debug */,
+				046ABD19260B536E004C6E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046ABD1B260B536E004C6E28 /* Build configuration list for PBXNativeTarget "Bull Eye Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046ABD15260B536E004C6E28 /* Debug */,
+				046ABD16260B536E004C6E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
